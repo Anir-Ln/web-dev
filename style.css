@@ -5,3 +5,33 @@
     background-color: #f7f6e9;
     font-family: sans-serif;
 }
+
+.content {
+	background-color: #e9f1fd;
+	box-shadow: 5px 10px 18px #888888;
+	align-self: center;
+}
+
+.all{
+  	max-width: 60%;
+  	margin: auto;
+}
+
+#Contact{
+	max-width: 70%;
+  	margin: auto;
+}
+
+div{
+	box-sizing: border-box;
+    padding: 10px;
+}
+
+input[type=text], textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
