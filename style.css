@@ -35,3 +35,15 @@ input[type=text], textarea{
   box-sizing: border-box;
   resize: vertical;
 }
+
+ul {
+  padding-left: 2%;
+  list-style-type: none;
+}
+
+ul li {
+  padding-left: 2%;
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
