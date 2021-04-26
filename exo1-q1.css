@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+	vertical-align: top;
+	font-size: 0;
+}
+
+body{
+	margin: 0;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+.container{
+	margin-left: 30px;
+	/* margin-bottom: 0px; */
+	display: inline-block;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	border: 1px black solid;
+}
+/*
+#c1 .box, #c3 .box, #c4 .box{
+	margin-bottom: 10px;
+}*/
+.box1{
+	background-color: #f77b72;
+}
+.box2{
+	background-color: #acf772;
+}
+.box3{
+	background-color: #bd72f7;
+}
+
+.rel-sec #c2 .box{
+	margin-bottom: 0px;
+}
+
+.rel-sec #c2 .box2{
+	position: relative;
+	left: 100px;
+}
+.rel-sec #c2 .box3{
+	position: relative;
+	left: 200px;
+	margin-right: 200px;
+}
+
+#c3 .box {
+	height: 150px;
+	width: 145px;
+}
+
+#c3 .box1{
+	width: 300px;
+}
+
+#c3 .box2, #c3 .box3{
+	display: inline-block;
+}
+
+.rel-sec #c3 .box3{
+	position: relative;
+	left: 10px;
+}
+
+#c4 .box {
+	width: 150px;
+	height: 150px;
+}
+
+#c4 .box1, #c4 .box2{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.abs-sec #c2 {
+	position: relative;
+	margin-right: 300px;
+	top: 100px;
+	left: 100px;
+}
+
+.abs-sec #c2 .box {
+    margin-bottom: 0;
+}
+
+.abs-sec #c2 .box2{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+.abs-sec #c2 .box3{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.abs-sec #c2 .box1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.abs-sec #c3{
+	position: relative;
+}
+
+.abs-sec #c3 .box3{
+	position: absolute;
+    right: 0px;
+}
+
+h2{
+	font-size: 20px;
+	font-family: sans-serif;
+	weight: 100;
+}
+
+.box:hover{
+    background: rgba(0, 0, 0, 0.6);
+}
